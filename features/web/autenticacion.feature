@@ -1,3 +1,4 @@
+@debug
 Feature: Autenticacion
     Background: Precondiciones
         Given ingreso a pagina principal
@@ -29,7 +30,3 @@ Feature: Autenticacion
         Examples:
             | email         |
             | test@test.com |
-
-    Scenario: recuperacion de contrasenia con email invalido
-        When se intenta recuperar contrasenia de cuenta vacia
-        Then se alerta de que el mail es invalido
