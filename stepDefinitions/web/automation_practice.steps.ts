@@ -8,7 +8,6 @@ Given(/^ingreso a pagina principal$/, async () => {
   });
 
 When(/^busqueda con campo search vacio$/, async () => {
-    // await Result.searchEmpty();
     await Main.searchBtn.click();
   });
 
