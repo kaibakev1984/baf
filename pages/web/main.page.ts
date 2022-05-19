@@ -13,6 +13,10 @@ class Main extends Page {
         return $('#search_query_top');
     }
 
+    public get signInBtn() {
+        return $("//a[normalize-space()='Sign in']");
+    }
+
     public async searchProductName(product: string) {
         await this.searchInput.setValue(product);
         await this.searchBtn.click();

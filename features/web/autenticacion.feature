@@ -1,4 +1,3 @@
-@debug
 Feature: Autenticacion
     Background: Precondiciones
         Given ingreso a pagina principal
